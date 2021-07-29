@@ -2,339 +2,447 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honda CBR</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honda CBR</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
- 
-    <header class="bg-info">
-           <!-- nav start -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light py-4">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5 text-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+
+  <header class="bg-secondary">
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary py-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#services">Shop</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#portfolio">News</a>
+              <a class="nav-link" href="#services">Shop</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#projects">Contact</a>
+              <a class="nav-link" href="#news-s">News</a>
             </li>
-            </ul>
-            <li class="d-flex justify-content-center">
-              <button class="btn btn-secondary " type="submit">login</button>
+            <li class="nav-item">
+              <a class="nav-link" href="#client-s">Client</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+          </ul>
+          <li class="d-flex justify-content-center">
+            <button class="btn btn-secondary " type="submit">login</button>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <!-- Banner section start -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container banner-s">
+            <div
+              class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-sm-1 gx-4 align-items-center justify-content-around gy-sm-5 gy-5 p-3">
+              <div class="col text-white">
+                <p>Computer-controlled digital
+                  transistorized with electronic advance</p>
+                <h1 class="fs-1 fw-bolder">Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt
+                  ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit
+                  mollit. Exercitation veniam consequat
+                  sunt nostrud amet.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-dark" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Add to card</button>
+                        <button type="button" class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div class="col">
+                <img src="./assets/img/header-bike.png" alt="" class="img-fluid">
+              </div>
+
+            </div>
           </div>
         </div>
-      </nav>
-    <!-- nav end -->
-        <!-- Banner section start -->
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="container banner-s">
-                    <div
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-sm-1 gx-4 align-items-center justify-content-around gy-sm-5 gy-5 p-3">
-                        <div class="col">
-                            <p>Computer-controlled digital
-                                transistorized with electronic advance</p>
-                            <h1 class="fs-1 fw-bolder">Honda CBR 300R</h1>
-                            <p>Amet minim mollit non deserunt
-                                ullamco est sit aliqua dolor do amet sint.
-                                Velit officia consequat duis enim velit
-                                mollit. Exercitation veniam consequat
-                                sunt nostrud amet.</p>
-                            <button class="btn btn-danger"><a class="nav-link" href="#" target="_blank">Purchase</a></button>
-                        </div>
-        
-        
-                        <div class="col">
-                            <img src="./assets/img/header-bike.png" alt="" class="img-fluid">
-                        </div>
-        
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container banner-s">
-                    <div
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-sm-1 gx-4 align-items-center justify-content-around gy-sm-5 gy-5 p-3">
-                        <div class="col">
-                            <p>Computer-controlled digital
-                                transistorized with electronic advance</p>
-                            <h1 class="fs-1 fw-bolder">Honda CBR 300R</h1>
-                            <p>Amet minim mollit non deserunt
-                                ullamco est sit aliqua dolor do amet sint.
-                                Velit officia consequat duis enim velit
-                                mollit. Exercitation veniam consequat
-                                sunt nostrud amet.</p>
-                            <button class="btn btn-danger"><a class="nav-link" href="#" target="_blank">Purchase</a></button>
-                        </div>
-        
-        
-                        <div class="col">
-                            <img src="./assets/img/bike-5.png" alt="" class="img-fluid">
-                        </div>
-        
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container banner-s">
-                    <div
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-sm-1 gx-4 align-items-center justify-content-around gy-sm-5 gy-5 p-3">
-                        <div class="col">
-                            <p>Computer-controlled digital
-                                transistorized with electronic advance</p>
-                            <h1 class="fs-1 fw-bolder">Honda CBR 300R</h1>
-                            <p>Amet minim mollit non deserunt
-                                ullamco est sit aliqua dolor do amet sint.
-                                Velit officia consequat duis enim velit
-                                mollit. Exercitation veniam consequat
-                                sunt nostrud amet.</p>
-                            <button class="btn btn-danger"><a class="nav-link" href="#" target="_blank">Purchase</a></button>
-                        </div>
-        
-        
-                        <div class="col">
-                            <img src="./assets/img/bike-6.png" alt="" class="img-fluid">
-                        </div>
-        
-                    </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        <!-- Banner section End -->
-    </header>
-    <main>
-        <!-- Fetured Bikes section start  -->
-        <section class="container bike-s">
-            <div class="text-center my-5">
-                <h1>Fetured Bikes 2021</h1>
-                <h4 class="text-danger">Best bike collection</h4>
-                <hr class="mx-auto bg-denger w-25">
-            </div>
-           <div class="row">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
-                        <div class="col"><img src="./assets/img/bike-1.png" alt="honda bike picture" class="img-fluid"></div>
-                        <div class="col"><img src="./assets/img/bike-2.png" alt="honda bike picture" class="img-fluid"></div>
-                        <div class="col"><img src="./assets/img/bike-3.png" alt="honda bike picture" class="img-fluid"></div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
-                        <div class="col"><img src="./assets/img/bike-1.png" alt="honda bike picture" class="img-fluid"></div>
-                        <div class="col"><img src="./assets/img/bike-2.png" alt="honda bike picture" class="img-fluid"></div>
-                        <div class="col"><img src="./assets/img/bike-3.png" alt="honda bike picture" class="img-fluid"></div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
-                        <div class="col"><img src="./assets/img/bike-1.png" alt="honda bike picture" class="img-fluid"></div>
-                        <div class="col"><img src="./assets/img/bike-2.png" alt="honda bike picture" class="img-fluid"></div>
-                        <div class="col"><img src="./assets/img/bike-3.png" alt="honda bike picture" class="img-fluid"></div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-           </div>
-        </section>
-        <!-- Fetured Bikes section end -->
-
-        <!-- latest News section start -->
-        <section class="container news-s">
-            <div class="text-center my-5">
-                <h1>Latest News</h1>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
-                <!-- card start  -->
-                <div class="com-sm">
-                    <div class="card rounded-3">
-                        <img src="./assets/img/bike-4.jpg" class="card-img-top img-thumbnail p-3" alt="Bike image ">
-                        <div class="card-body">
-                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional
-                                content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-outline-danger m-1">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card end -->
-                <!-- card start  -->
-                <div class="com-sm">
-                    <div class="card rounded-3">
-                        <img src="./assets/img/bike-6.png" class="card-img-top img-thumbnail p-3" alt="Bike image ">
-                        <div class="card-body">
-                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional
-                                content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-outline-danger m-1">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card end -->
-                <!-- card start  -->
-                <div class="com-sm">
-                    <div class="card rounded-3">
-                        <img src="./assets/img/bike-4.jpg" class="card-img-top img-thumbnail p-3" alt="Bike image ">
-                        <div class="card-body">
-                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional
-                                content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-outline-danger m-1">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card end -->
-            </div>
-
-        </section>
-        <!-- latest News section end -->
-
-        <!-- clients section start  -->
-        <section class="container client-s">
-            <div class="text-center my-5">
-                <h1>Happy <span class="text-danger">Clients says</span></h1>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
-                <!-- card start  -->
-                <div class="com-sm">
-                    <div class="card rounded-3">
-                        <img src="./assets/img/user-1.png" class="card-img-top img-fluid w-75 mx-auto rounded-circle"
-                            alt="Bike image ">
-                        <div class="card-body text-center">
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional
-                                content. This content is a little bit longer.</p>
-                            <h5 class="card-title">Ducati</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- card end -->
-
-            </div>
-
-        </section>
-        <!-- clients section end -->
-
-        <!-- FAQ Section start -->
-        <section class="container faq">
-            <div class="text-center my-5">
-                <h1>Frequently Asked  <span class="text-danger">Questions </span></h1>
-            </div>
+        <div class="carousel-item">
+          <div class="container banner-s">
             <div
-                class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-sm-1 gx-4 gy-sm-5 gy-5 p-3">
-                <div class="col">
-                    <img src="./assets/img/faq.png" alt="" class="img-fluid">
-                </div>
-                <div class="col">
-                    <div class="accordion accordion-flush ms-lg-5" id="accordionFlushExample">   
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                What are the most important things I should
-                                know about riding a bike?
-                              </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                              <div class="accordion-body">
-                                <p>
-                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
-                                  </p>
-                              </div>
-                            </div>
-                          </div>
-
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                How can I tell if my helmet is old and I need a 
-                                new one?
-                            </button>
-                          </h2>
-                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                My bike has been in storage is it safe to ride?
-                            </button>
-                          </h2>
-                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                What rules should I follow when riding my bike?
-                              </button>
-                            </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">4 content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                            </div>
-                          </div>
-                      </div>
-                </div>
+              class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-sm-1 gx-4 align-items-center justify-content-around gy-sm-5 gy-5 p-3">
+              <div class="col">
+                <p>Computer-controlled digital
+                  transistorized with electronic advance</p>
+                <h1 class="fs-1 fw-bolder">Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt
+                  ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit
+                  mollit. Exercitation veniam consequat
+                  sunt nostrud amet.</p>
+                <button class="btn btn-danger"><a class="nav-link" href="#" target="_blank">Purchase</a></button>
+              </div>
 
 
-
+              <div class="col">
+                <img src="./assets/img/bike-5.png" alt="" class="img-fluid">
+              </div>
 
             </div>
-        </section>
-        <!-- FQA Section end -->
-    </main>
-    <footer>
-    </footer>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container banner-s">
+            <div
+              class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-sm-1 gx-4 align-items-center justify-content-around gy-sm-5 gy-5 p-3">
+              <div class="col">
+                <p>Computer-controlled digital
+                  transistorized with electronic advance</p>
+                <h1 class="fs-1 fw-bolder">Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt
+                  ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit
+                  mollit. Exercitation veniam consequat
+                  sunt nostrud amet.</p>
+                <button class="btn btn-danger"><a class="nav-link" href="#" target="_blank">Purchase</a></button>
+              </div>
+
+
+              <div class="col">
+                <img src="./assets/img/bike-6.png" alt="" class="img-fluid">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Banner section End -->
+  </header>
+  <main>
+    <!-- Fetured Bikes section start  -->
+    <section class="container bike-s" id="bike-s">
+      <div class="text-center my-5">
+        <h1>Fetured Bikes 2021</h1>
+        <h4 class="text-danger">Best bike collection</h4>
+        <hr class="mx-auto bg-denger w-25">
+      </div>
+      <div class="row">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
+                <div class="col"><img src="./assets/img/bike-4.jpg" alt="honda bike picture" class="img-fluid"></div>
+                <div class="col"><img src="./assets/img/bike-5.png" alt="honda bike picture" class="img-fluid"></div>
+                <div class="col"><img src="./assets/img/bike-6.png" alt="honda bike picture" class="img-fluid"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
+                <div class="col"><img src="./assets/img/bike-4.png" alt="honda bike picture" class="img-fluid"></div>
+                <div class="col"><img src="./assets/img/bike-5.png" alt="honda bike picture" class="img-fluid"></div>
+                <div class="col"><img src="./assets/img/bike-6.png" alt="honda bike picture" class="img-fluid"></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
+                <div class="col"><img src="./assets/img/bike-4.png" alt="honda bike picture" class="img-fluid"></div>
+                <div class="col"><img src="./assets/img/bike-5.png" alt="honda bike picture" class="img-fluid"></div>
+                <div class="col"><img src="./assets/img/bike-6.png" alt="honda bike picture" class="img-fluid"></div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Fetured Bikes section end -->
+
+    <!-- latest News section start -->
+    <section class="container news-s" id="news-s">
+      <div class="text-center my-5">
+        <h1>Latest News</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
+        <!-- card start  -->
+        <div class="com-sm">
+          <div class="card rounded-3">
+            <img src="./assets/img/bike-1.png" class="card-img-top img-thumbnail p-3" alt="Bike image ">
+            <div class="card-body">
+              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-outline-danger m-1">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start  -->
+        <div class="com-sm">
+          <div class="card rounded-3">
+            <img src="./assets/img/bike-2.png" class="card-img-top img-thumbnail p-3" alt="Bike image ">
+            <div class="card-body">
+              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-outline-danger m-1">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start  -->
+        <div class="com-sm">
+          <div class="card rounded-3">
+            <img src="./assets/img/bike-3.png" class="card-img-top img-thumbnail p-3" alt="Bike image ">
+            <div class="card-body">
+              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                to additional
+                content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-outline-danger m-1">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+      </div>
+
+    </section>
+    <!-- latest News section end -->
+
+    <!-- clients section start  -->
+    <section class="container client-s" id="client-s">
+      <div class="text-center my-5">
+        <h1>Happy <span class="text-danger">Clients says</span></h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-1 gx-4 align-items-center gy-4">
+        <!-- card start  -->
+        <div class="col-sm-4">
+          <div class="card rounded-3 shadow-sm">
+            <img src="./assets/img/user-1.png" class="card-img-top mt-5 img-fluid img-thumbnail  w-75 mx-auto rounded-circle"
+              alt="Bike image ">
+            <div class="card-body text-center">
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                to additional
+                content. This content is a little bit longer.</p>
+              <h5 class="card-title text-primary">Ducati</h5>
+              <div class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <h5 class="text-muted py-1">Banker</h5>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start  -->
+        <div class="col-sm-4">
+        <div class="card rounded-3 shadow-sm">
+          <img src="./assets/img/user-2.png" class="card-img-top mt-5 img-fluid img-thumbnail  w-75 mx-auto rounded-circle"
+            alt="Bike image ">
+          <div class="card-body text-center">
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+              to additional
+              content. This content is a little bit longer.</p>
+            <h5 class="card-title text-primary">Ducati</h5>
+            <div class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <h5 class="text-muted py-1">Banker</h5>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+      <!-- card start  -->
+      <div class="col-sm-4">
+      <div class="card rounded-3 shadow-sm">
+        <img src="./assets/img/user-3.png" class="card-img-top mt-5 img-fluid img-thumbnail  w-75 mx-auto rounded-circle"
+          alt="Bike image ">
+        <div class="card-body text-center">
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+            to additional
+            content. This content is a little bit longer.</p>
+          <h5 class="card-title text-primary">Ducati</h5>
+          <div class="text-warning">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <h5 class="text-muted py-1">Banker</h5>
+        </div>
+      </div>
+    </div>
+    <!-- card end -->
+
+      </div>
+
+    </section>
+    <!-- clients section end -->
+
+    <!-- FAQ Section start -->
+    <section class="container faq " id="faq">
+      <div class="text-center my-5">
+        <h1>Frequently Asked <span class="text-danger">Questions </span></h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-sm-1 gx-4 gy-sm-5 gy-5 p-3">
+        <div class="col">
+          <img src="./assets/img/faq.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+          <div class="accordion accordion-flush ms-lg-5" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  What are the most important things I should
+                  know about riding a bike?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <p>
+                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
+                    the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused
+                    and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  How can I tell if my helmet is old and I need a
+                  new one?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  My bike has been in storage is it safe to ride?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  What rules should I follow when riding my bike?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">4 content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+    <!-- FQA Section end -->
+  </main>
+  <footer>
+  </footer>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
